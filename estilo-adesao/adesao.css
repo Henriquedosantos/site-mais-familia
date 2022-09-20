@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;800&family=Oswald:wght@300;400&display=swap');
+
+
+:root{
+    ---cor-1:#2BA8D9;
+    ---cor-2:#1e6c8b;
+    ---cor-destaque:#16d261;
+    ---cor-rodape:#89c9e2;
+    ---cor-clara:#63abbf;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);}
+
+body {
+    margin: auto;
+    min-width: 755px;
+    max-width: 1550px;
+    background-color: #f1f1f1df;}
+
+/* EXTRAS */
+    strong {
+        color: rgba(113, 255, 125, 0.827);}
+/* EXTRAS */
+
+
+    
+/* HEADER IS MENU START */
+
+header {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 30px;
+
+    background-color: rgb(247, 251, 255);
+    border-bottom: 3px solid #6ac6ea;
+}
+
+
+header > #peca_ja {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: #1db4ef;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 15px;}
+
+#peca_ja:hover {
+    background: #16d261;
+    transition-duration: 0.5s;
+}
+
+li#menu-list {
+    display: inline-block;
+    list-style: none;}
+
+
+nav > ul > li#menu-list > #link-menu {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: var(---cor-1);
+    text-shadow: 1px 1px 5px #0000000a;
+    margin-left: 40pt;
+}
+
+/* HEADER IS MENU END */
+
+ /* MAIN TITULO*/
+
+ main > h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+   
+ }
+
+ main > p#termos{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 14px;    
+    margin-bottom: 10%;
+   
+    
+ }
+ 
+ /* MAIN cards adesao*/
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+ main{
+    background-color: #1db4ef;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 40px;
+    width: 900px;
+    text-align: center;
+ }
+
+ main > section > .cards_adesao{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 25%;
+    cursor: pointer;
+  
+ }
+
+ main > section > .cards_adesao:hover{
+    position: relative;
+    top: -8px;
+    transition-duration: 1s;
+    background-color: rgb(229, 235, 240);
+ }
+
+ main > section > div.cards_adesao > h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2em ;
+
+    color: #1e6c8b;}
+    
+
+
+ main > section > div.cards_adesao > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2.9em;
+    color: #2BA8D9;
+    margin-bottom: 5%;
+    margin-top: 5%;
+ }
+
+ main > section > div.cards_adesao > ul{
+   margin: auto;
+   margin-bottom: 8%;
+
+  
+    
+  
+    list-style-position: inside;
+    line-height: 45px;
+    width: 100%;
+    
+
+    
+ }
+
+ main > section > div.cards_adesao > ul > li{
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;    
+    color: #1e6c8b;
+    
+   
+ }
+
+ section > div.cards_adesao > div{
+
+    background-color: #1db4ef;
+    border-radius: 30px;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+ }
+
+
+ section > div.cards_adesao > div:hover{
+    background: #16d261;
+    transition-duration: 0.5s;
+ }
+ 
+p#taxa{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 8%;
+    color:rgba(255, 255, 255, 0.637);
+    
+}
+
+h1#taxa_h1{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+/*REDES*/
+img#redes{
+    float: right;
+    border-radius: 5px;
+}
+
+img#foto-adesao{
+    float: right;
+    border-radius: 30px;
+    padding: 20px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RODAPÉ*/
+
+
+footer {
+    background-color: #89c9e2;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.501)
+}
+
+

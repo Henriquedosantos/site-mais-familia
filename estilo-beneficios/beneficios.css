@@ -1,0 +1,309 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;800&family=Oswald:wght@300;400&display=swap');
+
+
+:root{
+    ---cor-1:#2BA8D9;
+    ---cor-destaque:#16d261;
+    ---cor-rodape:#89c9e2;
+    ---cor-clara:#63abbf;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);}
+
+body {
+    margin: auto;
+    min-width: 755px;
+    max-width: 1550px;}
+
+/* EXTRAS */
+    strong {
+        color: rgba(113, 255, 125, 0.827);}
+/* EXTRAS */
+
+
+    
+/* HEADER IS MENU START */
+
+header {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 30px;
+
+    background-color: rgb(247, 251, 255);
+    border-bottom: 3px solid #6ac6ea;
+}
+
+
+header > #peca_ja {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: #1db4ef;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 15px;}
+
+#peca_ja:hover {
+    background: #16d261;
+    transition-duration: 0.5s;
+}
+
+li#menu-list {
+    display: inline-block;
+    list-style: none;}
+
+
+nav > ul > li#menu-list > #link-menu {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: var(---cor-1);
+    text-shadow: 1px 1px 5px #0000000a;
+    margin-left: 40pt;
+}
+
+/* HEADER IS MENU END */
+
+/*MAIN START*/
+
+main{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding: 50px;
+
+    
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.189);
+    border-radius: 50px 50px 900px 90px;
+    background: radial-gradient(circle, rgba(53, 148, 201, 1) 0%, rgba(17, 174, 191, 1) 100%);
+}
+
+main > section.container_01> h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+main > section.container_01 > p{
+    font-size: 25px;
+    width: 80%;
+    margin-bottom: 4%;
+}
+
+
+section.container_02>img {
+    border-radius: 50px 50px 900px 90px;
+    border: 4px solid #fff;
+    height: 460px;
+} 
+
+
+div.container_botoes{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+
+    border: 3px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    
+    padding: 10px;
+    width: 50%;
+}
+
+div.container_botoes:hover{
+    background-color: var(---cor-destaque);
+    cursor: pointer;
+}
+
+
+/* TITLE ONDE START  IS SOCIAL MEDIA START */
+
+
+
+
+article {
+   
+    margin: 0 auto;
+}
+
+
+
+article > p{
+    font-size: 20px;
+    color:var(---cor-1);
+    text-align: center;
+}
+
+article > img{
+    display: block;
+    margin: auto;
+   
+}
+
+
+
+article>h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    
+
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 8%);
+    text-align: center;
+
+    color: #1db4ef;
+
+}
+
+/* TITLE ONDE IS SOCIAL MEDIA END   */
+
+
+
+
+/* CARDS ONDE START  */
+
+section.cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+
+    margin-top: 4%;
+    margin-bottom: 10%;
+    
+  
+
+}
+
+section.cards_container>div#card_ {
+   background: radial-gradient(circle, rgba(53, 148, 201, 1) 0%, rgba(17, 174, 191, 1) 100%);
+   
+    width: 18%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.cards_container>div#card_>img {
+    display: block;
+    margin: auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+
+}
+
+.cards_container>div#card_>h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    
+
+}
+
+.cards_container>div#card_>p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.615);
+
+}
+
+.cards_container>div#card_>h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 5em;
+   
+}
+/* CARDS ONDE END */
+
+
+
+/* TORNE- SE PARCEIROS START */
+
+aside.torne-parceiros{
+    background-color: rgba(240, 248, 255, 0.808);
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 60%;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+aside.torne-parceiros > div.img_parceiro{
+    height: 200px;
+    margin-bottom: 40px;
+   
+}
+
+aside.torne-parceiros > h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+  
+    margin-bottom: 20px;
+    
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 8%);
+
+    color: var(---cor-1);
+}
+
+aside.torne-parceiros > div {
+    margin: auto;
+    height: 20px;
+    width: 50%;
+    padding: 10px;
+      
+    background-color:var(---cor-1);
+    border-radius: 20px;
+}
+
+aside.torne-parceiros > div:hover{
+    background-color: #41c2f5;
+    cursor: pointer;
+}
+
+ div#form_parceiro:hover{
+    background-color: var(---cor-destaque);
+    transition-duration: 1s;
+}
+
+
+/* FOOTER   */
+
+footer {
+    background-color: var(---cor-rodape);
+    padding: 50px;
+    margin: auto;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.501)
+}
