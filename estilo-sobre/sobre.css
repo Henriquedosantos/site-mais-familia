@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;800&family=Oswald:wght@300;400&display=swap');
+
+
+:root{
+    ---cor-1:#2BA8D9;
+    ---cor-destaque:#16d261;
+    ---cor-rodape:#89c9e2;
+    ---cor-clara:#63abbf;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);}
+
+body {
+    margin: auto;
+   }
+
+/* EXTRAS */
+    strong {
+        color: rgba(0, 0, 0, 0.827);}
+/* EXTRAS */
+
+
+    
+/* HEADER IS MENU START */
+
+header {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 30px;
+
+    background-color: rgb(247, 251, 255);
+    border-bottom: 3px solid #6ac6ea;
+}
+
+
+header > #peca_ja {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: #1db4ef;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 15px;}
+
+#peca_ja:hover {
+    background: #16d261;
+    transition-duration: 0.5s;
+}
+
+li#menu-list {
+    display: inline-block;
+    list-style: none;}
+
+
+nav > ul > li#menu-list > #link-menu {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: var(---cor-1);
+    text-shadow: 1px 1px 5px #0000000a;
+    margin-left: 40pt;
+}
+
+/* HEADER IS MENU END */
+
+
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+    width: 80%;
+
+    margin-bottom: 7%;
+   
+}
+
+ .img_01{
+    width: 40%;
+    border: 5px solid #1db4ef;
+    border-radius: 40% 80%;
+    
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    background: radial-gradient(circle, rgba(53, 148, 201, 1) 0%, rgba(17, 174, 191, 1) 100%);
+    height: 60vh;
+    padding: 50px;
+}
+
+aside > div{
+    border-right: 1px solid rgb(255, 255, 255);
+    width: 50%;  
+  
+}
+
+aside > div > h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #fff;
+    padding: 10px;
+}
+
+aside > div > p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: justify;
+    padding: 12px;
+    margin-right: 20px;
+   
+}
+
+span{
+    color:var(---cor-1);
+}

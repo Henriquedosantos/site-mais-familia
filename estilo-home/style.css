@@ -23,7 +23,7 @@ body {
 
 /* EXTRAS */
     strong {
-        color: rgba(0, 0, 0, 0.827);}
+        color: var(---cor-destaque);}
 /* EXTRAS */
 
 
@@ -239,7 +239,7 @@ section.section_container > article#oque-somos > p{
 }
 
 section.section_container >  img{
-    border-radius: 10% 10% 90% 90%;
+    border-radius: 10% 10% 100% 100%;
     background-size:cover;
    
 
