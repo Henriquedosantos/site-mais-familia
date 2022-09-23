@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;800&family=Oswald:wght@300;400&display=swap');
 
 
-:root{
-    ---cor-1:#2BA8D9;
-    ---cor-destaque:#16d261;
-    ---cor-rodape:#89c9e2;
-    ---cor-clara:#63abbf;
+:root {
+    ---cor-1: #2BA8D9;
+    ---cor-destaque: #16d261;
+    ---cor-rodape: #89c9e2;
+    ---cor-clara: #63abbf;
 }
 
 
@@ -15,20 +15,24 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: rgb(255, 255, 255);}
+    color: rgb(255, 255, 255);
+}
 
 body {
     margin: auto;
-   }
+}
 
 /* EXTRAS */
-    strong {
-        color: var(---cor-destaque);}
+strong {
+    color: rgb(145, 255, 145);
+}
+
 /* EXTRAS */
 
 
-    
+
 /* HEADER IS MENU START */
+
 
 header {
 
@@ -48,32 +52,34 @@ header {
 }
 
 
-header > #peca_ja {
+header>#peca_ja {
     border: 2px solid transparent;
     border-radius: 25px;
     background-color: #1db4ef;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    padding: 15px;}
+    padding: 15px;
+}
 
 #peca_ja:hover {
     background: #16d261;
     transition-duration: 0.5s;
 }
 
+
 li#menu-list {
     display: inline-block;
-    list-style: none;}
+    list-style: none;
+}
 
 
-nav > ul > li#menu-list > #link-menu {
+nav>ul>li#menu-list>#link-menu {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 18px;
-
+    
     color: var(---cor-1);
     text-shadow: 1px 1px 5px #0000000a;
-    margin-left: 40pt;
+    margin: 25px;
 }
 
 /* HEADER IS MENU END */
@@ -199,9 +205,10 @@ a>.img_whatsapp {
 
 /*CONTAINER IS ONE START */
 
-section.section_container{
+section.section_container {
 
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 85%;
@@ -213,14 +220,14 @@ section.section_container{
 }
 
 /* OQUE SOMOS  */
-section.section_container > article#oque-somos{
+section.section_container>article#oque-somos {
     margin: auto;
     padding: 10px;
     width: 40%;
 }
 
 
-section.section_container > article#oque-somos > h1{
+section.section_container>article#oque-somos>h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 3.2em;
     font-weight: bold;
@@ -228,9 +235,9 @@ section.section_container > article#oque-somos > h1{
 
 }
 
-section.section_container > article#oque-somos > p{
-    
-  
+section.section_container>article#oque-somos>p {
+
+
     font-size: 21px;
     line-height: 1.2;
     margin-bottom: 5%;
@@ -238,10 +245,10 @@ section.section_container > article#oque-somos > p{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
 }
 
-section.section_container >  img{
-    border-radius: 10% 10% 100% 100%;
-    background-size:cover;
-   
+section.section_container>img {
+    border-radius: 50px 50px 900px 900px;
+    background-size: cover;
+
 
 }
 
@@ -261,13 +268,13 @@ li {
 
 /*CONTAINER IS TWO START */
 
-section.section_container > article#oque-somos-02{
+section.section_container>article#oque-somos-02 {
     margin: auto;
     padding: 10px;
     width: 40%;
 }
 
-section.section_container > article#oque-somos-02 > h1{
+section.section_container>article#oque-somos-02>h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 3.4em;
     font-weight: bold;
@@ -275,9 +282,9 @@ section.section_container > article#oque-somos-02 > h1{
 
 }
 
-section.section_container > article#oque-somos-02 > p{
-    
-  
+section.section_container>article#oque-somos-02>p {
+
+
     font-size: 21px;
     line-height: 1.2;
     margin-bottom: 5%;
@@ -285,10 +292,10 @@ section.section_container > article#oque-somos-02 > p{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
 }
 
-section.section_container >  #img-02{
-    border-radius: 10px 50px 10px 50px;
+section.section_container>#img-02 {
+    border-radius: 20px 20px 200px 200px;
     height: 360px;
-    background-size:cover;
+    background-size: cover;
     border: 4px solid #fff;
 }
 
@@ -300,14 +307,13 @@ section.section_container >  #img-02{
 section>div.container_cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 16px;
 
     margin: 0 auto;
-    
-   
     padding: 60px;
-   
+
 }
 
 
@@ -323,7 +329,7 @@ section>div.container_cards>.card {
 
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.189);
     background: radial-gradient(circle, rgba(53, 148, 201, 1) 0%, rgba(17, 174, 191, 1) 100%);
-    
+
     cursor: pointer;
 
 }
@@ -355,7 +361,6 @@ section>div.container_cards>.card>h2 {
     font-weight: 900;
     text-align: center;
     font-size: 5em;
-    width: 100%;
 
     padding: 5px;
 }
@@ -377,7 +382,7 @@ section>div.container_cards>.card>p {
 
 /*ASIDE ONDE START*/
 
-aside.termos{
+aside.termos {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -397,21 +402,21 @@ aside.termos{
 
 }
 
-aside > p {
+aside>p {
     text-align: justify;
     color: var(---cor-1);
     font-size: 15px;
-    
-   
+
+
 }
 
 
-aside.imagens_banco{
+aside.imagens_banco {
     margin: auto;
     padding: 10px;
     width: 80%;
     margin-bottom: 4%;
-   
+
 }
 
 /*ASIDE ONDE END*/
@@ -420,12 +425,12 @@ aside.imagens_banco{
 
 /*ASIDE CARDS BUSSINES*/
 
-aside.imagens_banco > img{
+aside.imagens_banco>img {
     margin-left: 4%;
     cursor: pointer;
 }
 
-aside.imagens_banco > img:hover{
+aside.imagens_banco>img:hover {
     position: relative;
     top: 2px;
     transition-duration: 0.2s;
