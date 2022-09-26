@@ -24,7 +24,11 @@ body {
 
 /* EXTRAS */
 strong {
-    color: rgb(145, 255, 145);
+   
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: rgb(145, 255, 145);
+    
 }
 
 /* EXTRAS */
@@ -121,6 +125,7 @@ section.container_01>h1 {
 }
 
 section.container_01>p {
+    
     margin-bottom: 20px;
     width: 80%;
 
@@ -216,7 +221,7 @@ section.section_container {
     padding: 50px;
     box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.189);
     border-radius: 20px;
-    background-color: var(---cor-1);
+    background-color:#41b1dd;
 }
 
 /* OQUE SOMOS  */
@@ -232,12 +237,13 @@ section.section_container>article#oque-somos>h1 {
     font-size: 3.2em;
     font-weight: bold;
     margin-bottom: 2%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
 
 }
 
 section.section_container>article#oque-somos>p {
 
-
+   
     font-size: 21px;
     line-height: 1.2;
     margin-bottom: 5%;
@@ -284,7 +290,8 @@ section.section_container>article#oque-somos-02>h1 {
 
 section.section_container>article#oque-somos-02>p {
 
-
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
     font-size: 21px;
     line-height: 1.2;
     margin-bottom: 5%;
